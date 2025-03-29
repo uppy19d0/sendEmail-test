@@ -1,17 +1,20 @@
 const nodemailer = require('nodemailer');
 
+
 const transporter = nodemailer.createTransport({
     host: 'mail.triptournow.com',
     port: 587,
-    secure: false, // debe ser false para STARTTLS en el puerto 587
+    secure: false, // STARTTLS
     auth: {
         user: 'soporte@triptournow.com',
-        pass: 'tRip2025$.ttt' // recuerda la "t" adicional al final
+        pass: 'tRip2025$.ttt'
     },
     tls: {
         rejectUnauthorized: false,
         minVersion: 'TLSv1.2'
-    }
+    },
+    logger: true,
+    debug: true
 });
 
 // prueba enviar correo:
