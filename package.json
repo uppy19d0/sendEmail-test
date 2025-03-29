@@ -1,0 +1,25 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "main": "sendEmail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sendEmail.js",
+    "v2":"node v2-send-email.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppy19d0/student-homework-not-submitted.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uppy19d0/student-homework-not-submitted/issues"
+  },
+  "homepage": "https://github.com/uppy19d0/student-homework-not-submitted#readme",
+  "description": "",
+  "dependencies": {
+    "emailjs": "^4.0.3",
+    "nodemailer": "^6.10.0"
+  }
+}
