@@ -9,9 +9,6 @@ const transporter = nodemailer.createTransport({
         user: 'soporte@triptournow.com',
         pass: 'tRip2025$.ttt'
     },
-    tls: {
-        rejectUnauthorized: false
-    },
     logger: true,
     debug: true
 });
